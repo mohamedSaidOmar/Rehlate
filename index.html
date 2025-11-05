@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Rehlate</title>
+    <title>رحلاتي</title>
 </head>
 <body>
 
-    <header>
+    <div class="container">
+
+        <header>
         <nav>
             <div class="youtube">
                 <a href="#"><img src="images/youtube.svg" alt=""> يوتيوب</a>
             </div>
 
-            <div class="links">
+            <div class="links" id="nav-links">
                 <ul>
                     <li><a href="#contact">اتصل بنا</a></li>
                     <li><a href="#ratings">آراء العملاء</a></li>
@@ -28,12 +30,16 @@
             <div class="logo">
                 <a href="#home"><span>.</span> رحلاتي</a>
             </div>
+
+            <div class="toggle-menu" id="toggle-menu">
+                <img src="./images/Group 4.svg">
+            </div>
         </nav>
 
         <div class="home">
             <h1>سافر معنا حول العالم</h1>
             <p>نوفر لك أفضل الرحلات التي تحتاجها لجميع البلدان <br> وبخدمات مخصصة لك ولعائلتك</p>
-            <button><img src="images/arrow.svg" alt="">  احجز الآن</button>
+            <button><a href="#prices"><img src="images/arrow.svg" alt="">  احجز الآن</a></button>
         </div>
 
         <div class="extra">
@@ -138,7 +144,7 @@
                         <button><img src="images/arrow.svg" alt="">  احجز الآن</button>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bur">
                     <div dir="rtl" class="top">
                         <h2>$520 <span> / للشخص</span></h2>
                         <h4>خطة عائلية</h4>
@@ -247,10 +253,10 @@
                         <img src="images/help-icon.png" alt="">
                     </div>
                 </div>
-                <div class="y">
+                <div class="y v">
                     <div class="left">
                         <h4>للتواصل</h4>
-                        <p>يمكنك التواصل معنا عبر الفورم أو عبر البريد الإلكتروني: <br> <a href="#">company@mail.com</a></p>
+                        <p>يمكنك التواصل عبر الفورم أو عبر البريد الإلكتروني: <br> <a href="#">company@mail.com</a></p>
                     </div>
                     <div class="right">
                         <img src="images/communication-icon.png" alt="">
@@ -345,5 +351,9 @@
     </div>
 </footer>
 
+    </div>
+
+    
+<script src="script.js"></script>
 </body>
 </html>
