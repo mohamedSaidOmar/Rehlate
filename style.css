@@ -523,7 +523,6 @@ header {
     .options .body .cards {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 30px;
         .card {
             img {
                 width: 250px; 
