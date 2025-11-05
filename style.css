@@ -523,6 +523,7 @@ header {
     .options .body .cards {
         flex-wrap: wrap;
         justify-content: center;
+        /* gap: 9rem; */
         .card {
             img {
                 width: 250px; 
@@ -636,7 +637,7 @@ header {
     }
 
     .options .body .cards {
-        gap: 40px;
+        gap: 20px;
     }
 
     .services .body {
