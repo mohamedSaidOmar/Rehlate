@@ -469,7 +469,7 @@ header {
     .footer-container {
         display: flex;
         justify-content: flex-end;
-        gap: 5rem;
+        gap: 7rem;
         .footer-col {
             margin-bottom: 40px;
             h3 {
@@ -661,7 +661,8 @@ header {
                 left: 0;
                 width: 100%;
                 z-index: 2; 
-                border-radius: 10px;                
+                border-radius: 10px;   
+                position: fixed;             
             }
             .links.active ul {                
                 opacity: 1;
@@ -747,7 +748,8 @@ header {
 
     .contact .body {
         .left {
-            width: 90%;
+            width: 60%;
+            justify-content: space-evenly;
             .y {
                 gap: 1rem;
                 img {
