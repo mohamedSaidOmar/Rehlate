@@ -668,6 +668,7 @@ header {
                 padding: 15px;
                 font-size: 16px;
                 background-color: #191919;
+                padding-top: 80px;
                 position: absolute;
                 top: 0; 
                 left: 0;
@@ -762,15 +763,16 @@ header {
     .contact .body {
         .left {
             width: 60%;
-            justify-content: space-evenly;
             .y {
-                gap: 1rem;
+                justify-content: space-evenly;
+                align-items: center;
                 img {
                     width: 60px;
                 }
                 .left {
                     p {
                         font-size: 10px;
+                        min-width: 100px;
                     }
                 }
             }
