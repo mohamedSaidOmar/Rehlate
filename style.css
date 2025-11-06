@@ -30,6 +30,10 @@ ul {
     list-style: none;
 }
 
+.options, .services, .prices, .ratings, .contact {
+    scroll-margin-top: 120px;
+}
+
 header {
     background-image: url('./images/slide.jpg');
     background-position: center;
@@ -37,14 +41,19 @@ header {
     background-repeat: no-repeat;
     height: 800px;
     color: #fff;
+    padding-top: 250px;
     nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
-        margin-bottom: 100px;
-        padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        background-color: #191919;
         .links {
             ul {
                 display: flex;
@@ -79,6 +88,8 @@ header {
             }
         }
         .logo {
+            position: relative;
+            top: -10px;
             a {
                 text-decoration: none;
                 color: #fff;
@@ -529,13 +540,15 @@ header {
         height: 700px; 
         nav {
             justify-content: space-around;
+            align-items: center;
             font-size: 18px;
             margin-bottom: 50px;
-            .links ul {
-                gap: 2rem;
-            }
             .youtube {
                 display: none;
+            }
+            .logo {
+                position: relative;
+                top: -12px;
             }
         }
         .home {
@@ -644,7 +657,6 @@ header {
         height: 600px;
         text-align: center;
         nav {
-            position: relative;
             font-size: 16px;
             .links ul {
                 opacity: 0;
@@ -662,7 +674,6 @@ header {
                 width: 100%;
                 z-index: 2; 
                 border-radius: 10px;   
-                position: fixed;             
             }
             .links.active ul {                
                 opacity: 1;
@@ -673,6 +684,7 @@ header {
                 font-size: 25px;
                 font-weight: bold;
                 margin-right: auto;
+                margin-left: 20px;
                 position: relative;
                 top: -20px;
                 z-index: 10;
@@ -681,6 +693,7 @@ header {
                 display: block;
                 position: relative;
                 z-index: 10;
+                margin-right: 20px;
             }
         }
         .home {
